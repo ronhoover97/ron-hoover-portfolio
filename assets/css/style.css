@@ -70,6 +70,91 @@ h1 {
 
 }
 
+#about {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.aside {
+    border-right: 4px solid #162f3b;
+    min-height: 100%;
+    text-align: right;
+    padding-right: 5px;
+    min-width: 20%;
+    max-width: 20%;
+    color: #162f3b;
+}
+
+.aside h2 {
+    font-size: 50px;
+}
+
+#about p {
+    padding-left: 20px;
+    line-height: 1.4;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+#work {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 800px;
+}
+
+.wrapper {
+    display: grid;
+    width: 90%;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
+}
+
+.surf-report {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: span 2;
+    background-image: url(../images/pexels-pixabay-276205.jpg);
+}
+
+.led-wall {
+    background-image: url(../images/pexels-kevin-ku-577585.jpg);
+}
+
+.calculator {
+    background-image: url(../images/pexels-pixabay-147413.jpg);
+}
+
+.pastel-puzzles {
+    background-image: url(../images/pexels-daniel-putzer-633409.jpg);
+}
+
+.run-buddy {
+    background-image: url(../images/pexels-photo-255379.jpeg);
+    
+}
+
+.properties {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid;
+    color: cadetblue;
+}
+
+
+
 
 
 
